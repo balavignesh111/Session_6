@@ -1,0 +1,293 @@
+body{
+  background-color: white;
+  font-family: "Inter",serif;
+  margin: 0px;
+  color: #424242;
+}
+.container{
+  width: 100%;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* header */
+header{
+  width: 100%;
+  padding: 5px 100px 5px 100px;
+  box-shadow: 0px 2px 0px #f5f5f5;
+  position: fixed;
+  background-color: white;
+}
+.header_logo{
+  margin-left: 50px;
+  margin-right: 70px;
+  margin-top: 18px;
+}
+.header_nav{
+  margin-left: 340px;
+  width: 500px;
+  font-weight: 100;
+}
+.header_nav a{
+  text-decoration: none;
+  color: #666;
+  padding: 20px;
+}
+.header_nav a:hover{
+  color: #387ed1;
+}
+.header_nav i{
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+/* Investment */
+.Investment{
+  padding: 80px 0px;
+}
+.Invest_img{
+  width: 28%;
+  margin: auto;
+  padding-top: 50px;
+}
+.Invest_img img{
+  width: 100%;
+}
+.Invest_content{
+  margin-top: 80px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.Invest_content h1{
+  color: #424242;
+  font-size: 44px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.Invest_content p{
+  font-size: 20px;
+  color: #424242;  
+}
+.Invest_content button{
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 30px;
+  border: 1px solid #387ed1;
+  border-radius: 5px;
+  background-color: #387ed1;
+  color: white;
+  font-size: 19.2px;  
+  margin-top: 30px;  
+}
+/* stock_content */
+.stock_broker{
+  padding: 100px 20px 120px;
+
+}
+.stock_broker_img{
+  width: 30%;
+  margin: auto;
+}
+.stock_broker_img img{
+  width: 100%;
+}
+.stock_content{
+  width: 40%;
+  margin: auto;
+  color: #424242;
+}
+.stock_content h2{
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.stock_content p{
+  font-size: 16px;
+  line-height: 1.8;
+}
+.stock_list{
+  width: 45%;
+  font-size: 16px;
+}
+ul{
+  padding-left: 20px;
+  word-spacing: 10px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+/* ecosystem content */
+.ecosystem_cnt{
+  text-align: center;
+  color: #424242;
+}
+.ecosystem_cnt h2{
+  font-size: 32px;
+}
+.ecosystem_cnt h5{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  word-spacing: 1.5;
+}
+.ecosystem_img{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.ecosystem_img img{
+  width: 100%;
+}
+.ecosystem_img a{
+  text-decoration: none;
+  color: #387ed1;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.ecosystem_img a:hover, i:hover{
+  color: black;
+}
+/* pricing */
+.pricing{
+  padding: 160px 80px;
+}
+.pricing_content{
+  width: 40%;
+  margin: 0px auto;
+}
+.pricing_content h2{
+  font-size: 32px;
+  line-height: 1.5;
+  margin-top: 0%;
+  font-weight: 500;
+}
+.pricing_content P{
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+.pricing_content a{
+  text-decoration: none;
+  color: #387ed1;
+  font-weight: 500;
+}
+.pricing_content a:hover{
+  color: #424242;
+}
+.pricing_cnt_1{
+  width: 38%;
+  text-align: center;
+  padding: 0% 5%;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.pricing_cnt_1 h1{
+  margin: 0px;
+  display: inline;
+  font-size: 44px;
+}
+.pricing_border{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+.pricing_border_left{
+  border-left: 1px solid black;
+}
+.pricing_border_right{
+  border-right: 0.1px solid black;
+}
+/* market */
+.market{
+  padding: 0px 70px 100px;
+}
+.market_img{
+  width: 35%;
+  margin: auto;
+}
+.market_img img{
+  width: 100%;
+}
+.market_cnt{
+  width: 40%;
+  margin: auto;
+}
+.market_cnt h4{
+  font-size: 24px;
+  font-weight: 500;
+}
+.market_cnt a{
+  text-decoration: none;
+  color: #387ed1;
+  font-size: 16px;
+  font-weight: 500;
+}
+.market_cnt a:hover{
+  color: #424242;
+}
+/* account */
+.account{
+  padding: 40px 0px 50px;
+}
+/* footer */
+footer{
+  background-color: #fafafb;
+  padding: 30px 100px;
+  border-top: 1px solid #eee;
+}
+.zerodha_logo{
+  width: 20%;
+  margin: 20px auto;
+}
+.zerodha_logo i{
+  padding-top: 15px;
+  padding-right: 20px;
+  color: #666;
+}
+.zerodha_logo i:hover{
+  color: #387ed1;
+}
+.footer_cnt{
+  width: 15%;
+  margin: 0px auto;
+  padding-right: 0px;
+}
+.footer_cnt p{
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 200;
+  color: black;
+}
+.footer_cnt a{
+  text-decoration: none;
+  color: #424242;
+}
+.footer_cnt ul{
+  list-style: none;
+  word-spacing: 2px;
+  font-weight: 400;
+}
+.footer_description{
+  font-size: 0.8rem;
+  color: #9b9b9b;
+}
+.footer_description a{
+  text-decoration: none;
+  color: #387ed1;
+}
+/* footer link */
+.footer_links{
+  margin: 0px 80px;
+}
+.footer_links a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #9b9b9b;
+  padding: 0px 0px;
+  margin: 0px 20px;
+}
+.footer_links a:hover{
+  color: #387ed1;
+}
